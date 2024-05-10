@@ -42,9 +42,9 @@
                         </p>
                     </div>
                     <div class="absolute left-10 bottom-10 space-x-4 transform -translate-y-1/2  ">
-                        <a href="#slide4" class="btn btn-circle bg-fuchsia-300"><i
+                        <a href="#slide4" class="btn btn-circle bg-red-200"><i
                                 class="fa-solid fa-chevron-left "></i></a>
-                        <a href="#slide2" class="btn btn-circle bg-fuchsia-300"><i
+                        <a href="#slide2" class="btn btn-circle bg-red-200"><i
                                 class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
@@ -58,9 +58,9 @@
                         </p>
                     </div>
                     <div class="absolute left-10 bottom-10 space-x-4 transform -translate-y-1/2 ">
-                        <a href="#slide1" class="btn btn-circle bg-fuchsia-300"><i
+                        <a href="#slide1" class="btn btn-circle bg-red-200"><i
                                 class="fa-solid fa-chevron-left"></i></a>
-                        <a href="#slide3" class="btn btn-circle bg-fuchsia-300"><i
+                        <a href="#slide3" class="btn btn-circle bg-red-200"><i
                                 class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
@@ -74,9 +74,9 @@
                         </p>
                     </div>
                     <div class="absolute left-10 bottom-10 space-x-4 transform -translate-y-1/2 ">
-                        <a href="#slide2" class="btn btn-circle bg-fuchsia-300"><i
+                        <a href="#slide2" class="btn btn-circle bg-red-200"><i
                                 class="fa-solid fa-chevron-left"></i></a>
-                        <a href="#slide4" class="btn btn-circle bg-fuchsia-300"><i
+                        <a href="#slide4" class="btn btn-circle bg-red-200"><i
                                 class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
@@ -90,9 +90,9 @@
                         </p>
                     </div>
                     <div class="absolute left-10 bottom-10 space-x-4 transform -translate-y-1/2 ">
-                        <a href="#slide3" class="btn btn-circle bg-fuchsia-300"><i
+                        <a href="#slide3" class="btn btn-circle bg-red-200"><i
                                 class="fa-solid fa-chevron-left"></i></a>
-                        <a href="#slide1" class="btn btn-circle bg-fuchsia-300"><i
+                        <a href="#slide1" class="btn btn-circle bg-red-200"><i
                                 class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
@@ -423,7 +423,7 @@
             <p>Some hockey programs have sections for different skill levels, such as beginners, elite, and junior.</p>
         </div>
         <div class="divider px-24 mx-auto pt-12"></div>
-        <div class="px-24 mx-auto w-1/2 pt-12">
+        <div class="px-24 mx-auto w-1/2 pt-12 flex justify-between">
             <div class="space-y-5 border border-gray-400 rounded-xl p-5">
                 <div
                     class=" border border-gray-400 rounded-xl bg-slate-200 h-[150px] w-[274px] flex flex-col justify-center items-start pl-5">
@@ -444,31 +444,74 @@
                     <p class="font-bold">Milan, Italy</p>
                 </div>
             </div>
-            <label class="input input-bordered flex items-center gap-2">
-                 <p class="font-bold">Search Here</p>
-                <input type="text" class="grow" placeholder="Search" />
 
-            </label>
-            <label class="input input-bordered flex items-center gap-2">
-
-                <input type="text" class="grow" placeholder="Email" />
-            </label>
-            <label class="input input-bordered flex items-center gap-2">
-
-                <input type="text" class="grow" placeholder="Username" />
-            </label>
-            <label class="input input-bordered flex items-center gap-2">
-
-                <input type="password" class="grow" value="password" />
-            </label>
-            <div>
-                social account
+            <div class="pt-5">
+                <label class="form-control w-full max-w-xs">
+                    <div class="label">
+                        <span class="label-text font-bold text-lg">What is your name?</span>
+                    </div>
+                    <input type="text" placeholder="Type your name" class="input input-bordered w-full max-w-xs rounded-xl" />
+                    <div class="label">
+                    </div>
+                </label>
+                <label class="form-control w-full max-w-xs">
+                    <div class="label">
+                        <span class="label-text font-bold text-lg">Your Email</span>
+                    </div>
+                    <input type="text" placeholder="Type your email" class="input input-bordered w-full max-w-xs rounded-xl" />
+                    <div class="label">
+                    </div>
+                </label>
+                <label class="form-control w-full max-w-xs">
+                    <div class="label">
+                        <span class="label-text font-bold text-lg">Your Phone Number</span>
+                    </div>
+                    <input type="text" placeholder="Italy +39XXXXXXXXX" class="input input-bordered w-full max-w-xs rounded-xl" />
+                    <div class="label">
+                    </div>
+                </label>
+                <label class="form-control w-full max-w-xs">
+                    <span class="label-text font-bold text-lg">Leave a message</span>
+                    <textarea class="textarea textarea-bordered rounded-xl" placeholder="Your message"></textarea>
+                </label>
+                <button class="btn btn-primary bg-red-500 text-white w-full border-none outline-none mt-7 rounded-xl">Send Message </button>
+            </div>
+        </div>
+        <div class="mx-auto w-1/2 pt-12 pb-12 text-center space-y-5" >
+            <h1 class="text-2xl font-bold">
+                Social Media Account
+            </h1>
+            <div class="space-x-7">
+                <i class="font-bold text-2xl fa-brands fa-facebook"></i>
+                <i class="font-bold text-2xl fa-brands fa-whatsapp"></i>
+                <i class="font-bold text-2xl fa-brands fa-instagram"></i>
+                <i class="font-bold text-2xl fa-brands fa-discord"></i>
             </div>
         </div>
     </main>
-    <footer>
-
-    </footer>
+    <!-- footer section -->
+    <footer class="footer p-10 bg-black text-neutral-content text-center">
+        <nav>
+          <h6 class="footer-title">Services</h6> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Company</h6> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Legal</h6> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+      </footer>
 </body>
 
 </html>
